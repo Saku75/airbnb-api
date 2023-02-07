@@ -12,7 +12,7 @@ export default function handler(
 	res.status(200).json({
 		status: 200,
 		message: "OK",
-		data: null,
+		data: "This is the AirBnB replica API",
 		timestamp: new Date().toISOString(),
 	});
 }

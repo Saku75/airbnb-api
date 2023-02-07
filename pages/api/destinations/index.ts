@@ -30,10 +30,19 @@ export default function handler(
 		});
 
 	// Return the response
-	res.status(200).json({
-		status: 200,
-		message: "OK",
-		data: data,
-		timestamp: new Date().toISOString(),
-	});
+	if (data) {
+		res.status(200).json({
+			status: 200,
+			message: "OK",
+			data: data,
+			timestamp: new Date().toISOString(),
+		});
+	} else {
+		res.status(404).json({
+			status: 404,
+			message: "Not Found",
+			data: "No destinations found",
+			timestamp: new Date().toISOString(),
+		});
+	}
 }
