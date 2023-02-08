@@ -1,5 +1,4 @@
 // Request: GET /api/destinations/[destinationId]
-// Response: 200 OK (JSON)
 
 import type { NextApiRequest, NextApiResponse } from "next";
 import type ApiResponse from "lib/types/ApiResponse";
@@ -30,8 +29,7 @@ export default function handler(
 	} else {
 		res.status(404).json({
 			status: 404,
-			message: "Not Found",
-			data: null,
+			message: `Destination with ID ${destinationId} not found`,
 			timestamp: new Date().toISOString(),
 		});
 	}

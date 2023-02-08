@@ -1,5 +1,4 @@
 // Request: GET /api/destinations
-// Response: 200 OK (JSON)
 
 import type { NextApiRequest, NextApiResponse } from "next";
 import type ApiResponse from "lib/types/ApiResponse";
@@ -30,10 +29,18 @@ export default function handler(
 		});
 
 	// Return the response
-	res.status(200).json({
-		status: 200,
-		message: "OK",
-		data: data,
-		timestamp: new Date().toISOString(),
-	});
+	if (data) {
+		res.status(200).json({
+			status: 200,
+			message: "OK",
+			data: data,
+			timestamp: new Date().toISOString(),
+		});
+	} else {
+		res.status(404).json({
+			status: 404,
+			message: "Destinations not found",
+			timestamp: new Date().toISOString(),
+		});
+	}
 }
