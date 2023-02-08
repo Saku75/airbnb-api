@@ -1,5 +1,4 @@
 // Request: GET /api/destinations
-// Response: 200 OK (JSON)
 
 import type { NextApiRequest, NextApiResponse } from "next";
 import type ApiResponse from "lib/types/ApiResponse";
