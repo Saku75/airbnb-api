@@ -40,8 +40,8 @@ export default function handler(
 	} else {
 		res.status(404).json({
 			status: 404,
-			message: "Not Found",
-			data: "No destinations found",
+			message: "Destinations not found",
+			data: null,
 			timestamp: new Date().toISOString(),
 		});
 	}

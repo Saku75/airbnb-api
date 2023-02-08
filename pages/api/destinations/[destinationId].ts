@@ -30,7 +30,7 @@ export default function handler(
 	} else {
 		res.status(404).json({
 			status: 404,
-			message: "Not Found",
+			message: `Destination with ID ${destinationId} not found`,
 			data: null,
 			timestamp: new Date().toISOString(),
 		});
