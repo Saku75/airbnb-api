@@ -41,7 +41,6 @@ export default function handler(
 		res.status(404).json({
 			status: 404,
 			message: "Destinations not found",
-			data: null,
 			timestamp: new Date().toISOString(),
 		});
 	}

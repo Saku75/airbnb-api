@@ -1,7 +1,7 @@
 type ApiResponse = {
 	status: number;
 	message: string;
-	data: any;
+	data?: any;
 	timestamp: string;
 };
 

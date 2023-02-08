@@ -31,7 +31,6 @@ export default function handler(
 		res.status(404).json({
 			status: 404,
 			message: `Destination with ID ${destinationId} not found`,
-			data: null,
 			timestamp: new Date().toISOString(),
 		});
 	}
