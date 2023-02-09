@@ -13,12 +13,14 @@ export default function handler(
 	// Get the limit
 	const limit = req.query.limit ? parseInt(req.query.limit as string) : 8;
 
-	// Get the starting index
-	const start = req.query.start ? parseInt(req.query.start as string) - 1 : 0;
+	// Get the offset
+	const offset = req.query.offset
+		? parseInt(req.query.offset as string) - 1
+		: 0;
 
 	// Get the destinations to return
 	const data: Destination[] = destinations
-		.slice(start, start + limit)
+		.slice(offset, offset + limit)
 		.map((destination) => {
 			return {
 				id: destination.id,
