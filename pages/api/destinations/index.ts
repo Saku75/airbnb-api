@@ -14,9 +14,7 @@ export default function handler(
 	const limit = req.query.limit ? parseInt(req.query.limit as string) : 8;
 
 	// Get the offset
-	const offset = req.query.offset
-		? parseInt(req.query.offset as string) - 1
-		: 0;
+	const offset = req.query.offset ? parseInt(req.query.offset as string) : 0;
 
 	// Get the destinations to return
 	const data: Destination[] = destinations
