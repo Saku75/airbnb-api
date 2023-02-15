@@ -1,8 +1,8 @@
 type Destination = {
 	id: number;
 	image: string;
-	destination: string;
 	title: string;
+	destination?: string;
 	subtitle?: string;
 	text?: string;
 	facilities?: string[];

@@ -22,8 +22,7 @@ export default function handler(
 		.map((destination) => {
 			return {
 				id: destination.id,
-				image: destination.image,
-				destination: destination.destination,
+				image: "https://airbnb.lvmann.dk/img/" + destination.image,
 				title: destination.title,
 			};
 		});
