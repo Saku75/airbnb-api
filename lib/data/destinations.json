@@ -24,7 +24,7 @@
 	},
 	{
 		"id": 3,
-		"image": "greece.jpg",
+		"image": "greece.webp",
 		"destination": "Greece",
 		"title": "Full home/apartment in Athens, Spanien",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
@@ -47,7 +47,7 @@
 	},
 	{
 		"id": 5,
-		"image": "pigraitaly.jpg",
+		"image": "pigraitaly.webp",
 		"destination": "Italy",
 		"title": "Full home/apartment in Pigra, Italien",
 		"subtitle": "Beatiful spot close to the Como Lake",
@@ -89,7 +89,7 @@
 	},
 	{
 		"id": 8,
-		"image": "spain.jpg",
+		"image": "spain.webp",
 		"destination": "Spain",
 		"title": "Full home/apartment in Alozaina, Spanien",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
@@ -103,7 +103,7 @@
 	},
 	{
 		"id": 9,
-		"image": "sweden.jpg",
+		"image": "sweden.webp",
 		"destination": "Sweden",
 		"title": "Full home/apartment in Stockholm, Sweden",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
@@ -131,7 +131,7 @@
 	},
 	{
 		"id": 11,
-		"image": "turkey.jpg",
+		"image": "turkey.webp",
 		"destination": "Turkey",
 		"title": "Full home/apartment in Istanbul, Turkey",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
@@ -145,7 +145,7 @@
 	},
 	{
 		"id": 12,
-		"image": "united-kingdom.jpg",
+		"image": "united-kingdom.webp",
 		"destination": "United Kingdom",
 		"title": "Full home/apartment in London, United Kingdom",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
@@ -159,7 +159,7 @@
 	},
 	{
 		"id": 13,
-		"image": "united-states.jpg",
+		"image": "united-states.webp",
 		"destination": "United States",
 		"title": "Full home/apartment in New York, United States",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
@@ -173,7 +173,7 @@
 	},
 	{
 		"id": 14,
-		"image": "vietnam.png",
+		"image": "vietnam.webp",
 		"destination": "Vietnam",
 		"title": "Full home/apartment in Hanoi, Vietnam",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
@@ -187,7 +187,7 @@
 	},
 	{
 		"id": 15,
-		"image": "zimbabwe.jpg",
+		"image": "zimbabwe.webp",
 		"destination": "Zimbabwe",
 		"title": "Full home/apartment in Harare, Zimbabwe",
 		"subtitle": "the beautiful mountain range 'Sierra de las Nieves",
